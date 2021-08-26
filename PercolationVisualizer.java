@@ -80,8 +80,8 @@ public class PercolationVisualizer {
             draw(perc, n);
             StdDraw.show();
             StdDraw.pause(DELAY);
-            if (perc.percolates() == true)
-                break;
+            // if (perc.percolates() == true)
+            //     break;
 
         }
     }
